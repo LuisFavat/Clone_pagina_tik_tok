@@ -1,3 +1,5 @@
+En la carpeta api se encuentra el backEnd de la carpeta llamada web (que se trata de una pagina tipo tiktok)
+
 # Enunciado
 
 https://github.com/unq-ui/material/tree/master/TPs/2022s2
