@@ -1,0 +1,19 @@
+.SearchWrapper
+{
+    display: flex;
+    overflow: hidden;
+    height: 90vh;
+}
+
+.Users
+{
+    width: 25vw;
+    margin-left: 25%;
+    overflow-y: scroll;
+}
+
+.SearchPostsResult
+{
+    overflow-y: scroll;
+    width: 50vw;
+}

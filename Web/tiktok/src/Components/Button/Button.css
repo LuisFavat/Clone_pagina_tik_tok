@@ -1,0 +1,21 @@
+.ButtonWrapper
+{
+  width: 160px;
+  text-align: center;
+}
+
+.CustomButton
+{
+ border: 1px solid black;
+ color: black;
+ font-weight: 700;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+.CustomButton:hover
+{
+  background-color: var(--separator);
+}

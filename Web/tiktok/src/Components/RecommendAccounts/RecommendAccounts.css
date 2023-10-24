@@ -1,0 +1,30 @@
+@import url(/src/GlobalColors/globalColors.css);
+
+
+
+.RecommendAcountsWrapper
+{
+    
+
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    height: 440px;
+    overflow-y: scroll;
+
+    
+}
+
+
+.RecommendAcountsTitle
+{
+
+    font-weight: 500;
+    color:rgb(81,81,90);
+    margin-bottom: 20px;
+}
+
+.RecommendAccountsAvatarWrapper
+{
+    margin: 6px
+}

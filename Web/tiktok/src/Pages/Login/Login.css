@@ -1,0 +1,78 @@
+@import url(/src/GlobalColors/globalColors.css);
+
+.LoginWrapper
+{
+    background-color: white;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Login
+{
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid var(--separator);
+}
+
+.FormWrapper
+{
+    margin-right: 8px;
+}
+
+.UserAndPassword
+{
+    
+    text-align:left;
+}
+
+.LoginInput{
+    border-radius: 8px;
+    width: 100%;
+}
+
+.LoginValidation
+{
+    margin-top: 8px;
+    color: red;
+    height: 1rem;
+    cursor: default;
+    width: 20rem;
+}
+
+.AccessWrapper
+{
+    position: relative;
+    height: 2rem;
+
+    margin-top: 8px;
+}
+
+.Access
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--second);
+    color: white;
+    width: 5rem;
+    border-radius: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.Access:hover
+{
+    background-color: var(--second-hover);
+}
+

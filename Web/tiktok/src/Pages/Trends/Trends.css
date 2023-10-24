@@ -1,0 +1,59 @@
+.TrendsWrapper
+{
+    height: 94vh;
+}
+
+.TrendsGroup
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Trend
+{
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid var(--separator);
+    border-radius: 10px;
+
+    margin: 20px;
+
+
+}
+
+.TrendTitle
+{
+    font-weight: 800;
+    height: 80px;
+    
+}
+
+.TrendDescription
+{
+    height: 60px;
+    color: gray;
+    font-size: smaller;
+    margin: 10pxS;
+}
+
+.TrendLikes
+{
+    padding-left: 20%;
+    margin: 10px;
+}
+
+.VideoTrend
+{
+    border-radius: 20px;
+    width: 140px;
+}
+
+.TrendsNavButtons
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

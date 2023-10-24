@@ -1,0 +1,138 @@
+@import url(/src/GlobalColors/globalColors.css);
+
+.Nav_background
+{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: var(--background-color);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 40px;
+    border-bottom: solid 1px var(--border);
+    z-index: 1;
+  }
+
+.TikTok_button {
+
+    font-family: sans-serif;
+
+    font-size: x-large;
+    text-align: left;
+    color: var(--font-primary-color);
+  
+    margin-top: 6px;
+    padding-left: 6px;
+    width: 100px;
+    margin-left: 4px;
+    cursor: pointer;
+
+    margin-left: 20%;
+
+  }
+  
+
+  
+  .Search_container{
+    margin-left: -100px;
+  }
+
+  .Search_button {
+
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    color: var(--first);
+    background-color: var(--separator);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+    transform: translate(40px);
+    width: 40px;
+    cursor: pointer;
+    height: 26px;
+    padding-left: 5px;
+
+  }
+
+  .Input {
+
+    outline-color: none;
+    border: none;
+    background-color: var(--separator);
+
+    
+    transform: translate(80px,-26px);
+    box-sizing: border-box;
+    color: rgb(130,130,130);
+    border-radius: 50px;
+    font-size: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    width: 200px;
+    height: 26px;
+  }
+
+  .Search_button:hover {
+    background-color:var(--search-hover);
+
+
+
+  }
+
+
+
+  .Loggin{
+    font-family: sans-serif;
+  
+    font-size: x-large;
+    text-align: center;
+    color:var(--background-color);
+    background-color: var(--second);
+    border-radius: 4px;
+
+    padding-left: 6px;
+    padding-top: 6px;
+    width: 100px;
+    margin-left: 4px;
+    cursor: pointer;
+
+    margin-right: 20%;
+
+  }
+
+
+  .NavBarProfile
+  {
+
+    margin-right: 20%;
+    display: flex;
+  }
+
+  .Logout
+  {
+    font-family: sans-serif;
+    font-size: small;
+    text-align: center;
+    color:black;
+    cursor: pointer;
+    margin-top: 12px;    
+  }
+
+  .Pusher
+  {
+      height: 49px;
+  }
+
+  .Loggin:hover{
+    background-color: var(--second-hover);
+
+  }
+
+  ::placeholder { color: var(--third); }
+

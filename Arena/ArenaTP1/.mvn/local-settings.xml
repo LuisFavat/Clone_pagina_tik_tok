@@ -1,0 +1,27 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
+    <mirrors>
+        <mirror>
+            <id>uqbar-mirror</id>
+            <mirrorOf>uqbar</mirrorOf>
+            <name/>
+            <url>http://maven.uqbar.org/releases/</url>
+            <blocked>false</blocked>
+        </mirror>
+        <mirror>
+            <id>uqbar-wiki.org-releases-mirror</id>
+            <mirrorOf>uqbar-wiki.org-releases</mirrorOf>
+            <name />
+            <url>http://uqbar-wiki.org/mvn/releases</url>
+            <blocked>false</blocked>
+        </mirror>
+        <mirror>
+            <id>uqbar-wiki.org-snapshots-mirror</id>
+            <mirrorOf>uqbar-wiki.org-snapshots</mirrorOf>
+            <name />
+            <url>http://uqbar-wiki.org/mvn/snapshots</url>
+            <blocked>false</blocked>
+        </mirror>
+    </mirrors>
+</settings>

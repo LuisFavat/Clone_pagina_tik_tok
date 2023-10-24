@@ -1,0 +1,25 @@
+
+
+.AvatarWrapper
+{
+    text-align: center;
+    display:flex;
+    cursor: pointer;
+    color: black;
+}
+
+.Avatar
+{
+    border-radius: 50%;
+    height: 40px;
+}
+
+.Username
+{
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size:medium;
+    font-weight: 700;
+    max-height: 1rem;
+    border-radius: 4px;
+}

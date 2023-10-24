@@ -1,0 +1,68 @@
+@import url(/src/GlobalColors/globalColors.css);
+
+.HomeContent
+{
+    display: flex;
+    height: 93vh;
+}
+
+
+.HomeSideBar
+{
+    width: 45vw;
+    overflow-y: scroll;
+    margin-right: 50px;
+}
+
+.InsideHomeSideBarWrapper
+{
+    width: 400px;
+    float: right;
+}
+
+.LastestPosts
+{
+    overflow-y: scroll;
+    height: 95vh;
+    width: 55vw;
+    
+}
+
+
+.LastPostWrapper
+{
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  
+    border-bottom: 1px solid var(--separator);
+
+}
+
+.LastPostVideo
+{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.TimelineVideo
+{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.LastPostLikes
+{
+    margin-top: 10px;
+}
+
+.HomeLikesIco
+{
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: var(--separator);
+    cursor: pointer;
+}

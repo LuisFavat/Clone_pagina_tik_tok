@@ -1,0 +1,9 @@
+/.idea/
+/Arena/target
+/Arena/.idea/
+/Arena/node_modules
+*.log
+*.iml
+*.class
+/node_modules
+.log

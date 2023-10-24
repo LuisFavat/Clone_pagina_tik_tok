@@ -1,0 +1,40 @@
+:root{
+    --background-color: white;
+    --border:rgb(206, 206, 206);
+    --separator:  rgb(241, 241, 241);
+    --font-primary-color: black;
+    --search-bar: rbg(0, 0, 0);
+    --first:black;
+
+    --second:rgb(252,35,86);
+    --second-hover:rgb(237,33,81);
+    --third: rgb(137,137,137);
+    --search-hover: rgb(234, 234, 234);
+
+
+    --primary-color: #881b6d;
+    --secundary-color:#ccc0c3;
+    --tertiary-color: bisque;
+    --background-with-alpha: #942c57a1;
+    
+    font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+    --background-color: #942c57;
+    --primary-color: #881b6d;
+    --secundary-color:#ccc0c3;
+    --tertiary-color: bisque;
+    --background-with-alpha: #942c57a1;
+  }
+  
+::-webkit-scrollbar-track {
+    background: rgb(248,248,248);        /* color of the tracking area */
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(234,234,234);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+     /* creates padding around scroll thumb */
+  }

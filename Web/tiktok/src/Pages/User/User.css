@@ -1,0 +1,95 @@
+.UserPageWrapper
+{
+    height: 94vh;
+    display: flex;
+}
+
+.UserPageSideBar
+{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    border-right: 1px solid var(--separator);
+    padding-right: 8px;
+}
+
+.UserPagePosts
+{
+ width: 85vw;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:flex-start;
+ overflow-y: scroll;
+}
+
+.UserPageLastPostWrapper
+{
+  margin: 8px;
+}
+
+.UserPageProfile
+{
+    height: 10vh;
+    color:rgb(81,81,90);
+}
+
+.UserData
+{
+    border: 1px solid var(--separator);
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+
+.UserPageFollowButtonWrapper
+{
+    width: 100px;
+    text-align: center;
+    margin: 8px;
+}
+
+.UserPageFollowButton
+{
+    color: var(--second);
+    border: 1px solid var(--second);
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.UserPageFollowButton:hover
+{
+    color: var(--second-hover);
+    border-color: var(--second-hover);
+    background-color: rgb(255,242,245);
+}
+
+.UserPageFollowxxxWrapper
+{
+    color:rgb(81,81,90);
+}
+
+.UserPageFollowxxx
+{
+    border: 1px solid var(--separator);
+    border-radius: 10px;
+    height: 30vh;
+    overflow-y: scroll;
+}
+
+.UserPageFollowxxxCarousel
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.UserPageAvatarWrapper
+{
+    margin-bottom: 20px;
+}
+
+
